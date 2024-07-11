@@ -3,9 +3,43 @@ body * {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
 }
 
 /*
 Add some style blocks below this line to style the card.
 */
+
+.card {
+    width: 400px;
+    height: 510px;
+    padding: 20px 20px 0px 0px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+.card h2 {
+    margin: 0 0 0 10px;
+    color: #931717;
+    text-align: right;
+}
+
+.card img {
+    width: 398px;
+    height: 360;
+    margin: 20px 20px 0px 0px;
+}
+
+.card p {
+    width: 100%;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.card button {
+    padding: 5px;
+    margin-left: 165px;
+    color:#931717;
+}
